@@ -5,7 +5,7 @@
  *
  * Description: print the type of a string on the stdout.
  *
- * Result: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
