@@ -1,3 +1,5 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 
 /**
@@ -5,7 +7,7 @@
  *
  * Descrption:
  *
- * Return: Alwaus 0 (Success)
+ * Return: Alway 0 (Success)
  */
 int main(void)
 {
@@ -13,13 +15,14 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	int lastDigit;
 
-	putchar("Last digie of %d", n);
-	if (n > 5)
-		putchar("and is greater than 5");
-	else if ((n < 7) && !(0))
-		putchar("and is 0");
+	lastDigit = n % 10;
+	if ("n % 10" > 5)
+		printf("and is greater than 5", n, n % 10);
+	else if (("n % 10" < 7) && !(0))
+		prinf("and is less than 6 and not 0", n, n % 10);
 	else
-		putchar("and is 0")
+		printf("and is 0", n, n % 10);
 	return (0);
 }
