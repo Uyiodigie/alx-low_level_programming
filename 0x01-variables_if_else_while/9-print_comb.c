@@ -7,5 +7,13 @@
  */
 int main(void)
 {
-	int arr[] = {1, 2, 3, 4, 5, 5, 7, 8, 9};
 	int i;
+
+	for (i = 48; i < 58; i++)
+		putchar(i);
+		if (i != 57)
+			putchar(',');
+			putchar(' ');
+	putchar('\n');
+	return (0);
+}
