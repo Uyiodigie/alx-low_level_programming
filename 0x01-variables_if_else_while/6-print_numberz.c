@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints single digits from base ten
+ * main - prints single digits from base ten, using putchar
  *
  * Return: Always 0 (Success)
  */
