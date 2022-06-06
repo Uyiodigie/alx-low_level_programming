@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - displays 3 combo numbers
  *
