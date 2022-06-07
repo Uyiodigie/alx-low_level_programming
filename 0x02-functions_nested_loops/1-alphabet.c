@@ -3,6 +3,8 @@
 /**
  * main - prints the alphabet in lowercase followed by a new line
  *
+ * Description: prints putchar in lowercase
+ *
  * Return: Always 0 (Success)
  */
 void print_alphabet(void)
