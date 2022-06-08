@@ -1,0 +1,18 @@
+#include "main.h"
+
+/**
+ * print_sign - prints the sign of a number
+ *
+ * @n: parameter of number
+ *
+ * Return: 1 (positive), -1 (negative), 0 (zero)
+ */
+int print_sign(int n)
+{
+	if (n > 0)
+		return (1);
+	else if (n == 0)
+		return (0);
+	else if (n < 0)
+		return (-1);
+}
