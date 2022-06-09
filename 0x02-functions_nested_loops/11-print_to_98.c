@@ -4,18 +4,26 @@
 /**
  * print_to_98 - prints all natural numbers for n t0 98
  *
- * @i: integer parameter
+ * @n: integer parameter
  *
- * Return: Always 9 (Success)
+ * Return: Always 0 (Success)
  */
-void print_to_98(int i)
+void print_to_98(int n)
 {
-	if (i < 98)
+	if (n <= 98)
 	{
-		while (i < 98)
+		while (n <= 98)
 		{
-			printf("%d", i);
-			i++;
+			printf("%d, ", n);
+			n++;
+		}
+	}
+	else if (n > 98)
+	{
+		while (n > 98)
+		{
+			printf("%d, ", n);
+			n--;
 		}
 	}
 }
