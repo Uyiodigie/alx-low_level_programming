@@ -4,14 +4,15 @@
 /**
  * print_last_digit - prints the value of the last digit
  *
- * @i: integer parameter
- *
- * Return: int
+ * Return: Always 0 (Success)
  */
 int print_last_digit(int i)
 {
 	int modu = i % 10;
 
-	printf("The last digit of %d is %d", i, modu);
+	if (i < 0)
+		modu = modu * -1;
+
+	_putchar(modu + '0');
 	return (modu);
 }
