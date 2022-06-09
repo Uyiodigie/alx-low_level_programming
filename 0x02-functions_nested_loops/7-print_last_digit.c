@@ -6,13 +6,12 @@
  *
  * @i: integer parameter
  *
- * Return: Always 0 (Success)
+ * Return: int
  */
 int print_last_digit(int i)
 {
 	int modu = i % 10;
 
-	if (i > 0)
-		_putchar(modu);
-	return (0);
+	printf("The last digit of %d is %d", i, modu);
+	return (modu);
 }
