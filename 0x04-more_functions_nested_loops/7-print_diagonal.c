@@ -10,7 +10,6 @@
 void print_diagonal(int n)
 {
 	int i, j;
-	char line = "\\";
 
 	if (n >= 0)
 	{
