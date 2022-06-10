@@ -6,11 +6,11 @@
  *
  * return: void
  */
-void fizz_buzz(void)
+int fizz_buzz(void)
 {
 	int i;
 
-	for (i = 0; i <= 100; i++)
+	for (i = 1; i <= 100; i++)
 	{
 		if ((i % 3) == 0)
 			printf("Fizz ");
@@ -19,10 +19,7 @@ void fizz_buzz(void)
 		else if (((i % 3) == 0) && (i % 5) == 0)
 			printf("FizzBuzz ");
 		else
-			continue;
-
-		_putchar(i);
-		_putchar(' ');
+			printf("%d ", i);
 	}
 	_putchar('\n');
 }
