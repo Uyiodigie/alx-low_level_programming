@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * fizz_buzz - displays fizz, buzz and fizzbuzz
+ * main - displays fizz, buzz and fizzbuzz
  *
- * return: void
+ * return: Always 0 (Success)
  */
 int main(void)
 {
