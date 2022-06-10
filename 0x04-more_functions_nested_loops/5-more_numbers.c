@@ -14,10 +14,11 @@ void more_numbers(void)
 		j = 0;
 		while (j < 15)
 		{
-			_putchar(j);
+			if (j >= 10)
+				_putchar((j / 10) + 48);
 			j++;
 		}
-		_putchar(i);
+		_putchar((i % 10) + 48);
 		i++;
 	}
 	_putchar('\n');
