@@ -18,7 +18,7 @@ void more_numbers(void)
 				_putchar((j / 10) + 48);
 			j++;
 		}
-		_putchar((i % 10) + 48);
+		_putchar((j % 10) + 48);
 		i++;
 	}
 	_putchar('\n');
