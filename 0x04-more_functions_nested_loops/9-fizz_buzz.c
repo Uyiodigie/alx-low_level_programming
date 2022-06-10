@@ -22,4 +22,5 @@ int main(void)
 			printf("%d ", i);
 	}
 	putchar("Buzz\n");
+	return (0);
 }
