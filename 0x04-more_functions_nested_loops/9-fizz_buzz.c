@@ -21,5 +21,5 @@ int fizz_buzz(void)
 		else
 			printf("%d ", i);
 	}
-	_putchar('\n');
+	putchar("Buzz\n");
 }
