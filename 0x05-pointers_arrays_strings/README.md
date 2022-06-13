@@ -1,0 +1,1 @@
+New readme on pointers
