@@ -9,10 +9,9 @@
  */
 void rev_string(char *s)
 {
-	str[] = "Hello World";
 	int i;
 
-	for (i = str['\0']; i > 0; i--)
-		_putchar(str[i]);
+	for (i = s['\0']; i > 0; i--)
+		_putchar(s[i]);
 	_putchar('\n');
 }
