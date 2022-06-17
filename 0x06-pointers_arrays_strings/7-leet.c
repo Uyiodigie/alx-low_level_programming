@@ -8,8 +8,8 @@
 char *leet(char *s)
 {
 	int i = 0, j;
-	char lower[] = {'a', 'e', 'o', 't', 'l'};
-	char upper[] = {'A', 'E', 'O', 'T', 'L'};
+	int lower[] = {97, 101, 111, 116, 108};
+	int upper[] = {65, 69, 79, 84, 76};
 	int numbers[] = {52, 51, 48, 55, 49};
 
 	while (s[i] != '\0')
