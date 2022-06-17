@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* cap_string - capitalizes strins
+* cap_string - capitalizes strings
 * @s: input string.
 * Return: the pointer to dest.
 */
@@ -24,7 +24,7 @@ char *cap_string(char *s)
 				break;
 			}
 		}
-		j++;
+		i++;
 	}
 	return (s);
 }
