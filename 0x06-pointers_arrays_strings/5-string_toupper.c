@@ -1,11 +1,11 @@
 #include "main.h"
 /**
-* cap_string - capitalizes string
+* string_toupper - changes lowercase letters to uppercase
 * @s: input string.
 * Return: the pointer to dest.
 */
 
-char *cap_string(char *s)
+char *string_toupper(char *s)
 {
 	int i = 0;
 
