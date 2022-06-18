@@ -16,9 +16,9 @@ char *leet(char *s)
 	{
 		for (j = 0; j < 5; j++)
 		{
-			if (s[i] == lower[i] || s[i] == upper[i])
+			if (*(s + i) == lower[i] || *(s + i) == upper[i])
 			{
-				s[i] = numbers[i];
+				*(s + i) = numbers[i];
 				break;
 			}
 		}
