@@ -9,3 +9,5 @@ int is_palindrome(char *s);
 int wildcmp(char *s1, char *s2);
 int _putchar(char);
 int _squareRoot(int n, int i);
+int divisors(int n , int m);
+int tmp_prime(int n , int i);
