@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 
 	for (i = 0; i < argc; i++)
 	{
-		if (argc != 2)
+		if (argc != 3)
 		{
 			printf("Error\n");
 			return (1);
