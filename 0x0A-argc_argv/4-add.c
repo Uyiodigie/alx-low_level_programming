@@ -9,13 +9,13 @@
  */
 int main(int argc, char *argv[])
 {
-	if (argc <= 1)
+	if (argc == 0)
 		printf("0\n");
-	else if (!(argv[2] >= 48 && argv[2] <= 58) || !(argv[3] >= 48 && argv[3] <= 58))
+	else if (!(argv[1] >= 48 && argv[1] <= 58) || !(argv[2] >= 48 && argv[2] <= 58))
 	{
 		printf("Error\n");
 		return (1);
 	}
-	else
+	else if 
 		printf("%d", atoi(argv[1]) + atoi(argv[2]));
 	return (0);
