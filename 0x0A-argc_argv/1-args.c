@@ -3,10 +3,11 @@
 
 /**
  * main - prints the number of arguments passed
+ * @argv: argument vector
  * @argc: argument count
  * Return: 0 success
  */
-int main(int argc)
+int main(int argc, char *argv[])
 {
 	printf("%d\n", argc - 1);
 	return (0);
