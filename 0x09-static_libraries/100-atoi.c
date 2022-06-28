@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _atoi - 
+ * _atoi - converts sting to integer
  * @s: string param
  * Return: success
  */
