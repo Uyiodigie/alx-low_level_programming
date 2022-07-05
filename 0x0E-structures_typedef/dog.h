@@ -6,11 +6,12 @@
  * @name: name of dog
  * @age: age of dog
  * @owner: owner of dog
+ * Description: A structure for dogs
  */
 struct dog
 {
 	char *name;
-	float *age;
+	float age;
 	char *owner;
 };
 
