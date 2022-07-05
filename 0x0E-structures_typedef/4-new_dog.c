@@ -4,20 +4,27 @@
 
 /**
  * _strcpy - copies a string
- * @dest: destination
  * @src: source
- * Return: pointer to dest
+ * Return: pointer to ptr
  */
-char *_strcpy(char *dest, char *src)
+char *_strcpy(char *src)
 {
-	int i;
+	int i, len;
+	char *ptr;
 
+	if (src == NULL)
+		return (NULL);
+	for (len = 0; src[len] != '\0'; len++)
+		;
+	ptr = malloc(sizeof(char) * (len + 1));
+	if (ptr == NULL)
+		return (NULL);
 	for (i = 0; src[i] != '\0'; i++)
 	{
-		dest[i] = src[i];
+		ptr[i] = src[i];
 	}
-	dest[i] = '\0';
-	return (dest);
+	ptr[i] = '\0';
+	return (ptr);
 }
 
 /**
@@ -40,7 +47,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	new_name = _strcpy(name);
 	if (new_name == NULL)
 	{
-		free(*newDog);
+		free(newDog);
 		return (NULL);
 	}
 	(*newDog).name = new_name;
@@ -49,7 +56,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	if (new_owner == NULL)
 	{
 		free((*newDog).name);
-		free(*newDog);
+		free(newDog);
 		return (NULL);
 	}
 	(*newDog).owner = new_owner;
