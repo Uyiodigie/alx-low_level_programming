@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * add_nedeint_end - adds a new node at the end of a listint_t list.
+ * add_nodeint_end - adds a new node at the end of a listint_t list.
  * @head: double pointer to head
  * @n: elements
  * Return: node
@@ -13,7 +13,7 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 
 	newNode = malloc(sizeof(listint_t));
 	if (newNode == NULL)
-	       return (NULL);
+		return (NULL);
 	newNode->n = n;
 	if (*head == NULL)
 	{
