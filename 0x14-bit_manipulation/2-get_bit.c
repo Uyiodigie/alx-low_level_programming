@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * git_big - returns the value of a bit at a given index
+ * get_bit - returns the value of a bit at a given index
  * @n: unsigned long integer parameter
  * @index: pointion of the integer
  * Return: value of the bit or -1 if error
